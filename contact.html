@@ -44,6 +44,7 @@
               id="name"
               name="name"
               required
+              maxlength="40"
             />
             <label class="my-2 text-white" for="email">Email:</label>
             <input
@@ -52,6 +53,7 @@
               id="email"
               name="email"
               required
+              pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
             />
             <label class="my-2 text-white" for="message">Message:</label>
             <textarea
