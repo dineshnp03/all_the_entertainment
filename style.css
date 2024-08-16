@@ -1,3 +1,29 @@
+/* Authors: Dinesh Narasimhalu Punniyamoorthy, Sakar Shrestha, Naman Saxena */
+/* Student Ids: 8972738, 8901831, 8960872 */
+
+/* Browse compatibility
+
+Browser: Google Chrome,
+Version: Version 126.0.6478.127 (Official Build) (64-bit),
+Platform: Windows 11 Home (64-bit),
+
+
+Browser: FireFox,
+Version: Version 127.0  (Official Build) (64-bit),
+Platform: Windows 11 Home (64-bit),
+
+
+Browser: MicroSoft Edge,
+Version: Version 127.0.2651.98 (Official build) (64-bit),
+Platform: Windows 11 Home (64-bit),
+
+
+ Layout tested and confirmed working properly in the latest version of Chrome.
+
+*/
+
+
+
 /* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
