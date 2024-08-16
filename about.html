@@ -6,7 +6,10 @@
     <title>About</title>
     <link rel="icon" type="image/x-icon" href="/assets/favico.ico" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
   </head>
   <body>
     <div class="container">
@@ -29,7 +32,122 @@
         </ul>
       </nav>
 
-      <main></main>
+      <main class="m-2">
+        <section class="about-us mx-3 my-5">
+          <h1 class="mb-1">About ScreenScape</h1>
+          <p class="text-white">
+            We are a leading platform in the entertainment industry, bringing
+            the best of movies, music, and TV shows to our audience. Our mission
+            is to provide engaging and high-quality content that entertains and
+            inspires.
+          </p>
+        </section>
+        <section class="what-we-do">
+          <h2 class="mb-4 text-center">What We Do</h2>
+          <div class="info-graphics">
+            <div class="info-box p-4 cursor">
+              <i class="bi bi-film mb-3"></i>
+              <h3 class="mb-3">Movies</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                eget.
+              </p>
+            </div>
+            <div class="info-box p-4 cursor">
+              <i class="bi bi-music-note-beamed mb-3"></i>
+              <h3 class="mb-3">Music</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                eget.
+              </p>
+            </div>
+            <div class="info-box p-4 cursor">
+              <i class="bi bi-tv mb-3"></i>
+              <h3 class="mb-3">TV Shows</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                eget.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="partners">
+          <h2 class="mb-4 text-center">Our Partners</h2>
+          <div class="partner-list">
+            <div class="partner-box text-center cursor">
+              <i class="bi bi-apple"></i>
+              <h3>Apple</h3>
+            </div>
+            <div class="partner-box text-center cursor">
+              <i class="bi bi-spotify"></i>
+              <h3>Spotify</h3>
+            </div>
+            <div class="partner-box text-center cursor">
+              <i class="bi bi-play-btn"></i>
+              <h3>Netflix</h3>
+            </div>
+            <div class="partner-box text-center cursor">
+              <i class="bi bi-amazon"></i>
+              <h3>Prime</h3>
+            </div>
+            <div class="partner-box text-center cursor">
+              <i class="bi bi-youtube"></i>
+              <h3>Youtube</h3>
+            </div>
+          </div>
+        </section>
+
+        <section class="faq text-center">
+          <h2 class="mb-4 text-center">FAQs</h2>
+          <div class="accordion">
+            <div class="accordion-item mb-3">
+              <input type="checkbox" id="question1" />
+              <label class="font-bold cursor p-3" for="question1"
+                >What kind of entertainment do you offer?</label
+              >
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+                  itaque harum nulla optio voluptates incidunt alias laudantium
+                  maxime! Ratione dolore amet modi quasi odio, quis harum est
+                  atque quam explicabo!
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion-item mb-3">
+              <input type="checkbox" id="question2" />
+              <label class="font-bold cursor p-3" for="question2"
+                >How can I subscribe?</label
+              >
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ratione voluptatem cum doloribus quae magnam a, temporibus
+                  porro dolores error in dicta nostrum deserunt at! Sunt
+                  corporis possimus laudantium necessitatibus sapiente?
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion-item mb-3">
+              <input type="checkbox" id="question3" />
+              <label class="font-bold cursor p-3" for="question3"
+                >What are the benefits of partnering with you?</label
+              >
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                  dicta ea dolor amet impedit corrupti sapiente placeat aliquid
+                  architecto eius, culpa rerum soluta maiores deleniti in magni
+                  tenetur pariatur accusantium.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
       <footer>
         <div class="footer-container m-4 gap-3">
           <section
@@ -73,19 +191,19 @@
             <div class="d-flex flex-column align-items-start">
               <p>Follow us on</p>
               <div class="d-flex gap-2">
-                <i class="bi bi-instagram cursor"></i>
-                <i class="bi bi-facebook cursor"></i>
-                <i class="bi bi-twitter-x cursor"></i>
-                <i class="bi bi-youtube cursor"></i>
-                <i class="bi bi-threads cursor"></i>
+                <i class="bi bi-instagram cursor icon-hover"></i>
+                <i class="bi bi-facebook cursor icon-hover"></i>
+                <i class="bi bi-twitter-x cursor icon-hover"></i>
+                <i class="bi bi-youtube cursor icon-hover"></i>
+                <i class="bi bi-threads cursor icon-hover"></i>
               </div>
             </div>
-            <ul class="ps-0 d-flex flex-column align-items-start ">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="category.html">Categories</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
+            <ul class="ps-0 d-flex flex-column align-items-start">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="category.html">Categories</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
           </section>
         </div>
       </footer>
