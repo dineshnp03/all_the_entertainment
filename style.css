@@ -822,7 +822,6 @@ form {
   flex-direction: column;
   width: 90%;
   max-width: 600px;
-  margin: 0 auto;
 }
 
 form button {
@@ -1067,6 +1066,13 @@ form button {
   display: block;
 }
 
+.coming-soon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.coming-soon:hover {
+  transform: scale(1.2);
+}
 /* Responsive design */
 
 @media (max-width: 1024px) {
