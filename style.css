@@ -656,7 +656,6 @@ body {
   gap: 3rem !important;
 }
 
-/* Works on Firefox */
 * {
   scrollbar-width: thin;
   scrollbar-color: var(--seconday-color) var(--primary-color);
@@ -819,7 +818,7 @@ ul li:hover > a,
   color: var(--white);
 }
 
-/* Form */
+/* Contact us page */
 
 form {
   display: flex;
@@ -851,8 +850,7 @@ form button {
   height: 100%;
   border: 0;
 }
-
-/* Banner Image */
+/* Home Page */
 .banner {
   background-image: url("assets/banner.jpg");
   background-size: cover;
@@ -895,13 +893,12 @@ form button {
   color: var(--white);
 }
 
-/* CSS Transition */
 .card:hover {
   transform: translateY(-10px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-/* Content Section */
+
 .about {
   padding: 50px;
   text-align: center;
@@ -914,7 +911,7 @@ form button {
 
 /* About Us page */
 
-/* What We Do Section */
+
 .what-we-do {
   padding: 3rem;
 }
@@ -942,7 +939,6 @@ form button {
   color: var(--white);
 }
 
-/* Partners Section */
 .partners {
   padding: 3rem;
 }
@@ -973,12 +969,12 @@ form button {
   font-size: 1.2rem;
 }
 
-/* FAQ Section */
+
 .faq {
   padding: 3rem;
 }
 
-/* Accordion CSS */
+
 .accordion {
   max-width: 800px;
   margin: 0 auto;
@@ -1046,11 +1042,11 @@ form button {
 .partner-box:hover i {
   color: var(--seconday-color);
 }
-/* End of About us page */
 
-/* Categories Section */
 
-/* Category List */
+/* Categories Page */
+
+
 .category-list {
   display: flex;
   flex-wrap: wrap;
