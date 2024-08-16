@@ -857,7 +857,6 @@ form button {
   align-items: center;
   color: var(--white);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-  backdrop-filter: opacity(20%);
 }
 
 .card-container {
